@@ -23,8 +23,6 @@ def get_order():
 
         if item in menu:
             total += menu[item]
-            print(f"${total:.2f}")
-
-    return total
+            print(f"Total: ${total:.2f}")
 
 main()
